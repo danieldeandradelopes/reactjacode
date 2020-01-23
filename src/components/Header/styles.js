@@ -7,7 +7,7 @@ export const Navbar = styled.div`
   height: 50px;
   align-items: center;
   justify-content: space-between;
-  background: #ad2;
+  background: rgba(96, 42, 96, 0.9);
   overflow: hidden;
 
   a {

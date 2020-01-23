@@ -14,8 +14,12 @@ const Header = () => (
       <Link to="/blog">Blog</Link>
     </div>
     <Buttons>
-      <button type="button">Login</button>
-      <button type="button">Register</button>
+      <Link to="/login">
+        <button type="button">Login</button>
+      </Link>
+      <Link to="/register">
+        <button type="button">Register</button>
+      </Link>
     </Buttons>
   </Navbar>
 );

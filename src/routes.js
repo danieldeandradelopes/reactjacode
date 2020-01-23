@@ -6,6 +6,7 @@ import Dashboard from './pages/Dashboard';
 import Register from './pages/Register';
 import Courses from './pages/Courses';
 import Blog from './pages/Blog';
+import Login from './pages/Login';
 
 import { isAuthenticated } from './services/auth';
 
@@ -28,6 +29,7 @@ const Routes = () => (
       <Route path="/" exact component={Main}></Route>
       <Route path="/courses" component={Courses}></Route>
       <Route path="/blog" component={Blog}></Route>
+      <Route path="/login" component={Login}></Route>
       <Route path="/register" component={Register}></Route>
       <PrivateRoute path="/dashboard" component={Dashboard} />
       {/*<PrivateRoute path="/main/:page?" component={EditCountry} />
